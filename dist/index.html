@@ -1,0 +1,250 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>hw7</title>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="styles/vendor.css">
+
+    <link rel="stylesheet" href="styles/main.css">
+
+    <script src="scripts/vendor/modernizr.js"></script>
+  </head>
+  <body>
+
+
+    <div class="progress">
+      <div class="circle done">
+        <span class="label">1</span>
+        <span class="title">Import</span>
+      </div>
+      <span class="bar done"></span>
+      <div class="circle done">
+        <span class="label">2</span>
+        <span class="title">Questionaire</span>
+      </div>
+      <span class="bar half"></span>
+      <div class="circle active">
+        <span class="label">3</span>
+        <span class="title">Settings</span>
+      </div>
+      <span class="bar"></span>
+      <div class="circle">
+        <span class="label">4</span>
+        <span class="title">Labels</span>
+      </div>
+      <span class="bar"></span>
+      <div class="circle">
+        <span class="label">5</span>
+        <span class="title">Finish</span>
+      </div>
+    </div>
+<div class="body-container">
+<div class="stuff">
+<!---buttons-->
+<button><span class="entypo-export"></span>Export</button>
+<button><span class="entypo-chart-area"></span>Explore Data</button>
+<button id="create"><span class="entypo-plus"></span>Create New</button>
+<br>
+<!--inputs-->
+<h3>Project Name</h3>
+<input placeholder="Project Name"></input>
+<h3>Goal Statement</h3>
+<input placeholder="Goal"></input>
+<h3>File Type</h3>
+
+<form>
+   <select>
+      <option value="first">Production</option>
+      <option value="second">Sandbox</option>
+      <option value="third">The third option is really long and probably isn't even likely to happen in real life.</option>
+   </select>
+</form>
+
+<br>
+<input type="file" class="custom-file-input"><hr>
+<button id="json"> Generate JSON </button>
+<button id="help">?</button>
+<button id="help2">?</button><br>
+
+<input id="search">
+    </input>
+    <button class="search"> <span class="fontawesome-search"></span>
+    </button>
+
+<br>
+<progress max="100" value="80"></progress>
+</div><!--end of stuff-->
+
+
+
+<div id="mesa">
+<h2>Saved Machine Data Exports</h2>
+<table class="simple-table">
+
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Date</th>
+      <th>Type</th>
+      <th>Status</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Braves Fans Nov</td>
+      <td>11/13/2014</td>
+      <td>auto</td>
+      <td>in progress</td>
+      <td><button>View</button></td>
+    </tr>
+    <tr>
+      <td>Braves Fans Nov</td>
+      <td>1/4/2014</td>
+      <td>manual</td>
+      <td>completed</td>
+      <td><button>Download</button></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Saved Labeled Data Exports</h2>
+<table class="simple-table">
+
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Date</th>
+      <th>Type</th>
+      <th>Status</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Concert Goers Labels</td>
+      <td>12/9/2014</td>
+      <td>auto</td>
+      <td>in progress</td>
+      <td><button>View Map</button></td>
+    </tr>
+    <tr>
+      <td>Concert Goers Labels Halfway</td>
+      <td>1/4/2014</td>
+      <td>manual</td>
+      <td>completed</td>
+      <td><button>View Map</button></td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+</div><!--end of mesa-->
+
+<div id="boxes">
+  <img src="http://web.eecs.utk.edu/courses/fall2011/cs302/Notes/Random/exp.jpg">
+  <div id="stats">
+  <p>Goodness Ratio : <span>2.5</span><span class="entypo-help"></span></p>
+  <p>Compatabaility : <span>1.5</span><span class="entypo-help"></span></p>
+  <p>Accuracy : <span>30%</span><span class="entypo-help"></span></p>
+
+
+  </div>
+
+  <div id="colors">
+    <li id="one">dkslate</li>
+    <li id="two">dkgray</li>
+    <li id="three">silver</li>
+    <li id="four">plumgray</li>
+  </div>
+</div>
+</div><!--end of body container-->
+  <!--
+
+        <div class="header">
+          <h1> Paola Terán Nieves <span>| Storyteller</span></h1>
+
+          <nav>
+            <a href="#aboutme">about me.</a>
+            <a href="#work">work.</a>
+            <a href="#">resume.</a>
+            <a href="#">contact.</a>
+          </nav>
+
+          <a class="arrow-wrap" href="#play">
+            <span class="arrow"></span>
+            <!--<span class="hint">scroll</span>
+          </a>
+        </div>
+
+        <div class="content" id="content">
+          <div id="reel">
+            <iframe id="play"src="//player.vimeo.com/video/118184513?title=0&byline=0&portrait=0" width="1000" height="562" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/118184513">PAOLA TERAN_STORYTELLER/ EDITOR (Reel 2015)</a> from <a href="http://vimeo.com/sumfortis183">Paola Ter&aacute;n</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+          </div>
+
+        </div>
+
+        <div id="aboutme">
+          <h2>about me.</h2>
+
+          <p>Lorem ipsum dolor sit amet, graeco audiam signiferumque duo ei, unum prima delicata pri eu. Vim at nostrud officiis, ei ferri modus torquatos sed. Ad sit invenire deterruisset, erant epicuri id est, duo rebum ornatus ut. Sed ad natum velit, suas nostro quo ne. Luptatum molestiae ut sed. Erroribus corrumpit no mei, vel eu case facete prompta. Choro possit lucilius ex quo.
+          </p>
+          <p>
+          Ne quo dicat eripuit patrioque. Et duo vivendo disputando instructior, sit an solum quaestio voluptatibus, cu mel brute aliquam. Quo postea forensibus id, ad erat concludaturque cum. Ea cum novum consul recusabo. Ei sit illud latine necessitatibus, ubique fastidii duo no. Pri choro prompta cu, duo ei appetere euripidis.
+
+        </div>
+
+      <div id="work">
+        <h2>work.</h2>
+        <p>Ne quo dicat eripuit patrioque.</p>
+        <ul class="projects">
+          <li>Project Name</li>
+          <li>Project Name</li>
+          <li>Project Name</li>
+          <li>Project Name</li>
+          <li>Project Name</li>
+          <li>Project Name</li>
+          <li>Project Name</li>
+          <li>Project Name</li>
+        </ul>
+      </div>
+
+
+    <!--<div class="container">
+
+
+    </div>
+
+   <h2 class="head1">Section One</h2>
+        <div class="box">
+
+  <p class="hide">The dali lama master cleanse hexayurt astrological pranayama what the planet really needs eye-gazing, retreat nag champa braggs vipassana. Integral flax seed crackers papasan, karmic oneness virgo medical marijuana alkaline feeling abandoned all-encompassing. Sustainable non-profit craniosacral, past life co-op. Radical honesty impermanent yogic phish, with a dash of cayenne pepper tofu wicca prius.</p>
+
+    </div>
+
+        <h2 class="head2">Section Two</h2>
+        <div class="box">
+
+
+  <p class="hide">Sarong emotional release popcorn with brewers yeast, blessed gifting circle ponytail discovering valuable truths ancient spiritual traditions. Massage therapist feline acupuncture the dali lama doula tapping Bay Area loving kindness authentic self, safe space on the playa continuum. Conflict resolution dakini earth day, infinite blessings the wisdom of your body</p>
+        </div>
+        <h2 class="head3">Section Three</h2>
+        <div class="box">
+
+          <p class="hide">WA cold plunge into the root chakra of your crystalline consciousness.l homebirth. Asana mendo tahini astrological non-profit diva cup, stable energy fields patchouli. Consciousness infinite blessings lucid dreaming, core strength what quantum theory says Bay Area fair trade grass-fed holding space.</p>
+
+        </div>
+
+
+</div> ---->
+    <script src="scripts/vendor.js"></script>
+
+        <script src="scripts/main.js"></script>
+</body>
+</html>
